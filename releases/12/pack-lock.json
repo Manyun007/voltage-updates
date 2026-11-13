@@ -1,0 +1,882 @@
+{
+  "schema": 1,
+  "name": "Voltage",
+  "version": "0.2.0-alpha",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.265",
+  "java_major": 21,
+  "status": "closed-test candidate; not a production release",
+  "loader_installer": {
+    "filename": "neoforge-21.1.265-installer.jar",
+    "url": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.265/neoforge-21.1.265-installer.jar",
+    "sha512": "12ea54ad844d64f56a53f414e495ba971c2cb6263a382557243f7fe31d028d49c9ea804f1219b6d5dbda72a7bb4f7e5a043a3eefdcd41923e6c8e8630200c2c3",
+    "size": 6992412
+  },
+  "windows_java": {
+    "vendor": "Microsoft OpenJDK",
+    "version": "21.0.13.0.2",
+    "url": "https://aka.ms/download-jdk/microsoft-jdk-21.0.13.0.2-windows-x64.zip",
+    "sha256": "c5706a9cf482ef1a0622a86eea5b13d557b07f04554572af061e2d02b58c0f99",
+    "name": "microsoft-jdk-21.0.13.0.2-windows-x64.zip",
+    "source": "https://learn.microsoft.com/en-us/java/openjdk/download"
+  },
+  "mods": [
+    {
+      "slug": "ae2",
+      "project_id": "XxWD5pD3",
+      "name": "Applied Energistics 2",
+      "version": "19.2.19",
+      "version_id": "DxZ2waV0",
+      "release_type": "release",
+      "side": "both",
+      "filename": "appliedenergistics2-19.2.19.jar",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/DxZ2waV0/appliedenergistics2-19.2.19.jar",
+      "size": 8238387,
+      "hashes": {
+        "sha512": "36385eb9c41e1b1eb4632cac297f9b5560f9d56c061622e99ea2e1fb74f6ff3b9ad09d9e332547d30a3c7559fd4444ee9536a6e1ae12af57c8a8826932a09b29",
+        "sha1": "aa28d9d98d400fa9a191456bb14a433a3a2f6bfc"
+      },
+      "license": {
+        "id": "LicenseRef-Multiple",
+        "name": "",
+        "url": "https://github.com/AppliedEnergistics/Applied-Energistics-2#license"
+      },
+      "source": "https://modrinth.com/mod/ae2",
+      "required_dependencies": [
+        {
+          "version_id": null,
+          "project_id": "Ck4E7v7R",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "incompatible_projects": [
+        "tq47Uqpn"
+      ]
+    },
+    {
+      "slug": "ferrite-core",
+      "project_id": "uXXizFIs",
+      "name": "FerriteCore",
+      "version": "7.0.3-neoforge",
+      "version_id": "x7kQWVju",
+      "release_type": "release",
+      "side": "both",
+      "filename": "ferritecore-7.0.3-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/x7kQWVju/ferritecore-7.0.3-neoforge.jar",
+      "size": 121559,
+      "hashes": {
+        "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+        "sha512": "19af89a2075bb10a63884fa853ebf84b02c79dc3242430ecdad056fd764fdcde367a7303276b329df01b0736e2ef264c5d80c7dc92c6aebd244f556a230bb417"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/ferrite-core",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "guideme",
+      "project_id": "Ck4E7v7R",
+      "name": "GuideME",
+      "version": "21.1.22",
+      "version_id": "QeYKsstN",
+      "release_type": "release",
+      "side": "both",
+      "filename": "guideme-21.1.22.jar",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/QeYKsstN/guideme-21.1.22.jar",
+      "size": 9332340,
+      "hashes": {
+        "sha512": "2a7b29143c1bef18375f221c337c6e744d04b79bc3cc10cadac46b7d6bb217ad78c51a3c33cd802b221cc7b38ff04a3f7064bd63d292e53bf9f3e09047eeda24",
+        "sha1": "eb2f531c91566a0f119b4b3a3acd927b48b6b27e"
+      },
+      "license": {
+        "id": "LicenseRef-Multiple-OSS-Licenses",
+        "name": "",
+        "url": "https://github.com/AppliedEnergistics/GuideME/blob/main/LICENSE.MD"
+      },
+      "source": "https://modrinth.com/mod/guideme",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "jei",
+      "project_id": "u6dRKJwZ",
+      "name": "Just Enough Items (JEI)",
+      "version": "19.51.0.418",
+      "version_id": "ufHUqt9b",
+      "release_type": "release",
+      "side": "client",
+      "filename": "jei-1.21.1-neoforge-19.51.0.418.jar",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/ufHUqt9b/jei-1.21.1-neoforge-19.51.0.418.jar",
+      "size": 1804792,
+      "hashes": {
+        "sha1": "d19552586f686eae4ef5e7199f31604d1d3cfca7",
+        "sha512": "a6ca3abc3080f6f41033a77cb955fefe9f9ebae795c33546227f555b2d31e8d4131cc705126d14a3fbabb31097fc0e876dc0bbeb05ad907a1b796f21e57527bf"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/jei",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "lightmans-currency",
+      "project_id": "wvMc8AJt",
+      "name": "Lightman's Currency",
+      "version": "1.21-2.3.0.6",
+      "version_id": "XMHRtEIk",
+      "release_type": "release",
+      "side": "both",
+      "filename": "lightmanscurrency-1.21-2.3.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/XMHRtEIk/lightmanscurrency-1.21-2.3.0.6.jar",
+      "size": 8073221,
+      "hashes": {
+        "sha1": "bb16d428902b6d83c5203e9cf50984ef4b9f769a",
+        "sha512": "47ed278271e852ce76cee225b3c8dd762fce4c5a26c4351e449d5553578cd416c056627423597a9cac89228a240c2addf91748d2c5134b902d7da12e41e292a8"
+      },
+      "license": {
+        "id": "Apache-2.0",
+        "name": "Apache License 2.0",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/lightmans-currency",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "lithium",
+      "project_id": "gvQqBUqZ",
+      "name": "Lithium",
+      "version": "mc1.21.1-0.15.4-neoforge",
+      "version_id": "DDUrRVCA",
+      "release_type": "release",
+      "side": "both",
+      "filename": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/DDUrRVCA/lithium-neoforge-0.15.4%2Bmc1.21.1.jar",
+      "size": 774220,
+      "hashes": {
+        "sha512": "2735da2088b88a8bdcd4ad02a2b6fffbfd3925557cefd4fa54b5477dfb9e582ea7f521300c060f57dff1325dd21bff276b7333363ad3371ed6893e3de9eca9cd",
+        "sha1": "97212e45c963730bbfc7c44780df99317814c21b"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/lithium",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "mekanism",
+      "project_id": "Ce6I4WUE",
+      "name": "Mekanism",
+      "version": "10.7.19.85",
+      "version_id": "5KzzycBT",
+      "release_type": "release",
+      "side": "both",
+      "filename": "Mekanism-1.21.1-10.7.19.85.jar",
+      "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/5KzzycBT/Mekanism-1.21.1-10.7.19.85.jar",
+      "size": 11976009,
+      "hashes": {
+        "sha1": "b78945c40cfe7640408f3fd1e44da385a8c8b805",
+        "sha512": "66745825330a98f3e4a5ea3a44aff8b00870f715c144edc38dd2f61b4240589600b58ae89efac3b54dbb5aa430b1059dac1a28fd71cac5cc9002bbeb5ba3f22b"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/mekanism",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "mekanism-generators",
+      "project_id": "OFVYKsAk",
+      "name": "Mekanism Generators",
+      "version": "10.7.19.85",
+      "version_id": "a6gl7srE",
+      "release_type": "release",
+      "side": "both",
+      "filename": "MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "url": "https://cdn.modrinth.com/data/OFVYKsAk/versions/a6gl7srE/MekanismGenerators-1.21.1-10.7.19.85.jar",
+      "size": 1114598,
+      "hashes": {
+        "sha1": "44c4d8006597580ff7e4101b5a22f7b426cdcaf6",
+        "sha512": "6c3d5b7ea2f67f43c3d169c97de2855a7085f38019cf426e015ccc8ca9bc4f66e96b1cdf4a9afdc92bef7b2e236f16c81415ed5e48736805d5961d29525316d6"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/mekanism-generators",
+      "required_dependencies": [
+        {
+          "version_id": "5KzzycBT",
+          "project_id": "Ce6I4WUE",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "modernfix",
+      "project_id": "nmDcB62a",
+      "name": "ModernFix",
+      "version": "5.27.27+mc1.21.1",
+      "version_id": "ZDZENbHH",
+      "release_type": "release",
+      "side": "both",
+      "filename": "modernfix-neoforge-5.27.27+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/ZDZENbHH/modernfix-neoforge-5.27.27%2Bmc1.21.1.jar",
+      "size": 614138,
+      "hashes": {
+        "sha1": "52c008540c7dc2cc451f7e939a885d7462c9ae72",
+        "sha512": "af14a35e51f1c5d94139c6225ae641e8b0ded5a8c68eb4806cf28025d6c043455ac289902cd6b854a867320ab845ad619b186d02b8341822faf03f4476dec555"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/modernfix",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "open-parties-and-claims",
+      "project_id": "gF3BGWvG",
+      "name": "Open Parties and Claims",
+      "version": "neoforge-1.21.1-0.33.0",
+      "version_id": "yWmXD7GW",
+      "release_type": "beta",
+      "side": "both",
+      "filename": "open-parties-and-claims-neoforge-1.21.1-0.33.0.jar",
+      "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/yWmXD7GW/open-parties-and-claims-neoforge-1.21.1-0.33.0.jar",
+      "size": 1903256,
+      "hashes": {
+        "sha512": "646fd9796ef2dfd1132e22aacf1a417639233d90fb7eb862a718badfed955d54714c88327b7ddc651f98cd5b7d2a80e8c91233d2232680d4998fdd10ef392ffb",
+        "sha1": "6075cf36ac8d70bd1fd870e0eb9ac84685388df7"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "GNU Lesser General Public License v3.0 only",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/open-parties-and-claims",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "sodium",
+      "project_id": "AANobbMI",
+      "name": "Sodium",
+      "version": "mc1.21.1-0.8.13-neoforge",
+      "version_id": "uMOpc5uV",
+      "release_type": "release",
+      "side": "client",
+      "filename": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/uMOpc5uV/sodium-neoforge-0.8.13%2Bmc1.21.1.jar",
+      "size": 1292934,
+      "hashes": {
+        "sha512": "4f537696af95411e9daf15795fb5fcbc49913d488a96fa912fa8f1d7db408710995e8a1461190f3cd0f8217bf9e35e9539176592428ed587ca2d7aa84450a390",
+        "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693"
+      },
+      "license": {
+        "id": "LicenseRef-Polyform-Shield-1.0.0",
+        "name": "",
+        "url": "https://github.com/CaffeineMC/sodium/blob/dev/LICENSE.md"
+      },
+      "source": "https://modrinth.com/mod/sodium",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "spark",
+      "project_id": "l6YH9Als",
+      "name": "spark",
+      "version": "1.10.124-neoforge-1.21.1",
+      "version_id": "v5qtqRQi",
+      "release_type": "release",
+      "side": "server",
+      "filename": "spark-1.10.124-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/v5qtqRQi/spark-1.10.124-neoforge.jar",
+      "size": 3642581,
+      "hashes": {
+        "sha1": "9430cc2ab64ff89d698be593769fb9f9ee4efae6",
+        "sha512": "f86ce34f2759c69df82578c397ff55b666c84626229a98f598458b960c21b38c95d6bfef4772af7f963c4f4868e5e2d9aef6b99c1d51bab55bf45e0e6e6b5ed4"
+      },
+      "license": {
+        "id": "GPL-3.0-only",
+        "name": "GNU General Public License v3.0 only",
+        "url": "https://github.com/lucko/spark/blob/master/LICENSE.txt"
+      },
+      "source": "https://modrinth.com/mod/spark",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "the-one-probe",
+      "project_id": "Eyw0UxEx",
+      "name": "The One Probe",
+      "version": "1.21_neo-12.0.9",
+      "version_id": "kxB9y8zd",
+      "release_type": "release",
+      "side": "both",
+      "filename": "theoneprobe-1.21_neo-12.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/Eyw0UxEx/versions/kxB9y8zd/theoneprobe-1.21_neo-12.0.9.jar",
+      "size": 330526,
+      "hashes": {
+        "sha1": "4db81f93ef9a7ea35ccf6bae49ffd0be89f4b4df",
+        "sha512": "c1dbe4c59bd4e0a2ac1855aaa43bb4ac26aabb27b44002a60327a4a1486f884f3d1a1d70257991bfec2296ccfd439e73a92f49d8c8fb50b1fd5ce34bd514da0a"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/the-one-probe",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "xaeros-minimap",
+      "project_id": "1bokaNcj",
+      "name": "Xaero's Minimap",
+      "version": "neoforge-1.21.1-26.6.0",
+      "version_id": "irjR7dHk",
+      "release_type": "release",
+      "side": "client",
+      "filename": "xaerominimap-neoforge-1.21.1-26.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/irjR7dHk/xaerominimap-neoforge-1.21.1-26.6.0.jar",
+      "size": 2186351,
+      "hashes": {
+        "sha1": "551e8e2aa3498b506cc949a74606cdc0380e5e00",
+        "sha512": "d56b93ddb921285624b491d6a85aba23748bec9974867399c881c257eb25a746df92a735473adf3a6875e0928a56ff78245d5238eb9207b0e45c3fec20c896dc"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/xaeros-minimap",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "xaeros-world-map",
+      "project_id": "NcUtCpym",
+      "name": "Xaero's World Map",
+      "version": "neoforge-1.21.1-1.47.0",
+      "version_id": "SnQ4SoDe",
+      "release_type": "release",
+      "side": "client",
+      "filename": "xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/SnQ4SoDe/xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+      "size": 1427078,
+      "hashes": {
+        "sha512": "4d2d78bc85afa002f682ef344b7284cf1baa4903cc5a11cd1d7bd260ac63952580ae717bab47079540ead633cdd5d8e4fdf230dc99a68bcb7a269500e7dada13",
+        "sha1": "2936c9cb9dfbdab145fe6f1e8ae2c68915246a5f"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/xaeros-world-map",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "squaremap",
+      "project_id": "PFb7ZqK6",
+      "name": "squaremap",
+      "version": "1.3.2",
+      "version_id": "z5esjXfR",
+      "release_type": "release",
+      "side": "server",
+      "filename": "squaremap-neoforge-mc1.21.1-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/PFb7ZqK6/versions/z5esjXfR/squaremap-neoforge-mc1.21.1-1.3.2.jar",
+      "size": 8001707,
+      "hashes": {
+        "sha1": "813bb501bd8af9540acb80ee3b4d29379f9eb6d6",
+        "sha512": "1290fde871b635b0482f9e223b62c9766a28fa0e7be0f623f27e55f7882c651bfe7a8e4b04fd2675c36a504f92d9435a19f4e6c8153a1be2785f025c499106ac"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "MIT License",
+        "url": "https://github.com/jpenilla/squaremap/blob/master/LICENSE"
+      },
+      "source": "https://modrinth.com/plugin/squaremap",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "chtr",
+      "project_id": "TYt9WXbA",
+      "name": "ChTR",
+      "version": "1.0.0",
+      "version_id": "hwKsTayi",
+      "release_type": "release",
+      "side": "server",
+      "filename": "ChTR-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TYt9WXbA/versions/hwKsTayi/ChTR-1.0.jar",
+      "size": 10276,
+      "hashes": {
+        "sha1": "2b07c2b95ca8c65642a45a07860071c512a23c66",
+        "sha512": "cd3e1addab6c625f75b31dd2941f57ef954dd42bb6873235b5180ab76b82ce0d7e287af41187621927382f7c638b322af82075d3d117874982c97f583a583624"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "See mod metadata",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/chtr",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "voltageboard",
+      "project_id": "local-voltageboard",
+      "name": "VOLTAGE Board",
+      "version": "1.0.0",
+      "version_id": "local-1.0.0",
+      "release_type": "release",
+      "side": "server",
+      "filename": "voltageboard-1.0.0.jar",
+      "url": "",
+      "local_path": "content/server-mods/voltageboard-1.0.0.jar",
+      "size": 15119,
+      "hashes": {
+        "sha1": "b4cf28f98d9c812d5b20b8bb3cbf804b214e5ec9",
+        "sha512": "4c4654c6cab95ecb681de94382f9e7f9ef034bba0c19ea84175083c46da3516c80a2e2109dcba67d947277f0e4bb712ec4d2d60f7380262f5852dd8ac46e5768"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "VOLTAGE",
+        "url": null
+      },
+      "source": "local VOLTAGE project",
+      "required_dependencies": [
+        "lightmans-currency",
+        "open-parties-and-claims"
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "worldguardneo",
+      "project_id": "local-worldguardneo",
+      "name": "WorldGuardNeo (VOLTAGE)",
+      "version": "1.3",
+      "version_id": "8275cb09-voltage",
+      "release_type": "release",
+      "side": "server",
+      "filename": "worldguardneo-1.3.jar",
+      "url": "",
+      "local_path": "content/server-mods/worldguardneo-1.3.jar",
+      "size": 325600,
+      "hashes": {
+        "sha1": "e7974c10869311e3bb1b39abc40f13a1b33b3fb0",
+        "sha512": "37e5b996bb34c11685775f67f834d3482204dace9603470131d22cd9a1c8efea5da7a31b6845513dfc09d1f04a36b5fdcb18a974b5a655886d844d120c1fe567"
+      },
+      "license": {
+        "id": "GPL-3.0-or-later",
+        "name": "GNU GPL v3 or later",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.html"
+      },
+      "source": "https://github.com/TheFather007/WorldGuardNeo/tree/8275cb09ab96c825fadfe591ef9e286c4bbaf5dd",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "voltagetravel",
+      "project_id": "local-voltagetravel",
+      "name": "VOLTAGE Travel",
+      "version": "1.0.0",
+      "version_id": "local-1.0.0",
+      "release_type": "release",
+      "side": "server",
+      "filename": "voltagetravel-1.0.0.jar",
+      "url": "",
+      "local_path": "content/server-mods/voltagetravel-1.0.0.jar",
+      "size": 14184,
+      "hashes": {
+        "sha1": "6093b794fee45e0fc82d4aabbefb03aadda05d3d",
+        "sha512": "2e9462a6851664e9ca29d38e7e29ad28e34b336a10cb50808e4fb17390e85bdfdd86bfc46c919260beaf458768b7c4d1b431700d33ab5be79751719c31b439a8"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "VOLTAGE",
+        "url": null
+      },
+      "source": "local VOLTAGE project",
+      "required_dependencies": [
+        "worldguardneo"
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "voltagestore",
+      "project_id": "local-voltagestore",
+      "name": "VOLTAGE Store",
+      "version": "1.0.0",
+      "version_id": "local-1.0.0",
+      "release_type": "release",
+      "side": "server",
+      "filename": "voltagestore-1.0.0.jar",
+      "url": "",
+      "local_path": "content/server-mods/voltagestore-1.0.0.jar",
+      "size": 16761,
+      "hashes": {
+        "sha1": "12da2c317f12da310446b192e07ee4a2aaaecdd8",
+        "sha512": "ce0d82681446d8fc5f15782ef8e2a0a0ff5c37e9b35122aec338624d55fd1d9023a3bda1eb2a95a921a46ea518f59bf856b86c7011f5d97363086835bba8e09a"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "VOLTAGE",
+        "url": null
+      },
+      "source": "local VOLTAGE project",
+      "required_dependencies": [
+        "lightmans-currency"
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "industrial-foregoing",
+      "project_id": "lWxpUd04",
+      "name": "Industrial Foregoing",
+      "version": "1.21-3.6.38",
+      "version_id": "os5V2Plx",
+      "release_type": "release",
+      "side": "both",
+      "filename": "industrialforegoing-1.21-3.6.38.jar",
+      "url": "https://cdn.modrinth.com/data/lWxpUd04/versions/os5V2Plx/industrialforegoing-1.21-3.6.38.jar",
+      "size": 4630924,
+      "hashes": {
+        "sha512": "275ba1c87f13ca967c5a65bf3b120a101fe2c292d89565401167b268ae8ad20bc2fb6665e53813166f2c6a1b53c268ef7f3f9e3956026e11c4ba0712efb9e639",
+        "sha1": "79019a59c8023f5883d7a6c2f2308c995f828aa3"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/industrial-foregoing",
+      "required_dependencies": [
+        {
+          "version_id": null,
+          "project_id": "1Ro7m06l",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "titanium",
+      "project_id": "1Ro7m06l",
+      "name": "Titanium",
+      "version": "1.21-4.0.52",
+      "version_id": "ZrffET42",
+      "release_type": "release",
+      "side": "both",
+      "filename": "titanium-1.21-4.0.52.jar",
+      "url": "https://cdn.modrinth.com/data/1Ro7m06l/versions/ZrffET42/titanium-1.21-4.0.52.jar",
+      "size": 608119,
+      "hashes": {
+        "sha512": "8fbdc6840c7f670f952018563f2e24b0666de392df2e2753bbd17548f9ea77f3291ee5047c32342a4e7dd017ad5ccc7e66999fbb2cd3693ddc888de5825cb2e2",
+        "sha1": "b46f625333c9c570eed9962a355f37687d39e731"
+      },
+      "license": {
+        "id": "MIT",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/titanium",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "flux-networks",
+      "project_id": "curseforge-248020",
+      "name": "Flux Networks",
+      "version": "8.0.0",
+      "version_id": "curseforge-6089446",
+      "release_type": "release",
+      "side": "both",
+      "filename": "FluxNetworks-1.21.1-8.0.0.jar",
+      "url": "https://mediafilez.forgecdn.net/files/6089/446/FluxNetworks-1.21.1-8.0.0.jar",
+      "size": 535938,
+      "hashes": {
+        "sha512": "24c3ecae0e49a4e8fa9ca9cf3f99af36d185f95970249f414c8feb2f18fc2e5b3ad2700e17714c1bc5ebadf440de5dbc98fd4113a85fb9364aa2c5922a8366bf",
+        "sha1": "183342f454428084748f2784c8efd748664a9f9c"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://www.curseforge.com/minecraft/mc-mods/flux-networks",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "ftb-quests",
+      "project_id": "curseforge-289412",
+      "name": "FTB Quests",
+      "version": "2101.1.38",
+      "version_id": "curseforge-9405148",
+      "release_type": "release",
+      "side": "both",
+      "filename": "ftb-quests-neoforge-2101.1.38.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9405/148/ftb-quests-neoforge-2101.1.38.jar",
+      "size": 1635517,
+      "hashes": {
+        "sha512": "fc97e8f2848b72ca04eba930a5382a9839faf860c1f943eeb698b4859cd5fa9a9533b900f06855b878cf8b7f1c2c10a9c3db37194e5dcb3ed3e2df342538009d",
+        "sha1": "389fb269d338ed4c7f14f945a07759b6d444af40"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-quests-forge",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "ftb-library",
+      "project_id": "curseforge-404465",
+      "name": "FTB Library",
+      "version": "2101.1.39",
+      "version_id": "curseforge-9350706",
+      "release_type": "release",
+      "side": "both",
+      "filename": "ftb-library-neoforge-2101.1.39.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9350/706/ftb-library-neoforge-2101.1.39.jar",
+      "size": 1477833,
+      "hashes": {
+        "sha512": "e28a5c032395b96ce696800ca7689315074110e572186d8ba08bdf326e0ff43f6fcce942c35a3fe60637dc2bf2077f04b3e222892e60016fe545339dcc7529aa",
+        "sha1": "ff852d99ade215fb892369687d0634ecf0bca6ae"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "ftb-teams",
+      "project_id": "curseforge-404468",
+      "name": "FTB Teams",
+      "version": "2101.1.12",
+      "version_id": "curseforge-9434081",
+      "release_type": "release",
+      "side": "both",
+      "filename": "ftb-teams-neoforge-2101.1.12.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9434/81/ftb-teams-neoforge-2101.1.12.jar",
+      "size": 308430,
+      "hashes": {
+        "sha512": "c2c8853615c1ec97e0ace07c320db8f0ad4a18c59746e1d30c86f7af0e6ad36d9bbfe0ca6a365aa63d29244e1690323296fb29d99a38bab97e2c19181a57e376",
+        "sha1": "9c831fbbbccf2178827c3ccf278b2f2a0ce57306"
+      },
+      "license": {
+        "id": "LicenseRef-All-Rights-Reserved",
+        "name": "",
+        "url": null
+      },
+      "source": "https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "architectury-api",
+      "project_id": "lhGA9TYQ",
+      "name": "Architectury API",
+      "version": "13.0.11+neoforge",
+      "version_id": "1IiqEQGl",
+      "release_type": "release",
+      "side": "both",
+      "filename": "architectury-13.0.11-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1IiqEQGl/architectury-13.0.11-neoforge.jar",
+      "size": 584734,
+      "hashes": {
+        "sha512": "d9f7c3bb8162577dfb461ffdf04bd6a3563c7586934a0e2a744c14421beffb8286f0d88d4c758317003f20f99fe8072a39b9d675af061e036970d36db36027f0",
+        "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/architectury-api",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "kubejs",
+      "project_id": "umyGl7zF",
+      "name": "KubeJS",
+      "version": "2101.7.2-build.381",
+      "version_id": "GDXCpKlp",
+      "release_type": "release",
+      "side": "both",
+      "filename": "kubejs-neoforge-2101.7.2-build.381.jar",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/GDXCpKlp/kubejs-neoforge-2101.7.2-build.381.jar",
+      "size": 2295092,
+      "hashes": {
+        "sha512": "f8286f9f371d0c1fb2b37e56b1dbb359dcfc5a9064a7384cbf6722450f5b5a77f05f55688d7a338b500a6f49590d51e3d3541664dfc0296e50fe573a34e5a529",
+        "sha1": "b282ba250cdd247f319c016df02ff9e600caadb1"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/kubejs",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "rhino",
+      "project_id": "sk9knFPE",
+      "name": "Rhino",
+      "version": "2101.2.7-build.85",
+      "version_id": "cQ4POTah",
+      "release_type": "release",
+      "side": "both",
+      "filename": "rhino-2101.2.7-build.85.jar",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/cQ4POTah/rhino-2101.2.7-build.85.jar",
+      "size": 882075,
+      "hashes": {
+        "sha512": "0a6c7f4410281aeb03b815ec03487a8e80a4d3dae013d81282e447bf9c08144ef57318af614ea6d40b7d9a8c25031c557890ec792a5895a82467c1643116f693",
+        "sha1": "3c8d34c7efe9e42fc90506acbf9fc842d36f9a42"
+      },
+      "license": {
+        "id": "MPL-2.0",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/rhino",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "gregtechceu-modern",
+      "project_id": "7tG215v7",
+      "name": "GregTech CEu Modern",
+      "version": "8.0.0-SNAPSHOT+543bc4e",
+      "version_id": "github-543bc4e",
+      "release_type": "alpha",
+      "side": "both",
+      "filename": "gtceu-1.21.1-8.0.0-SNAPSHOT+20261104-200507-543bc4e.jar",
+      "url": "https://voltage-host.tail2ce11c.ts.net/updates/gtceu-1.21.1-8.0.0-SNAPSHOT%2B20261104-200507-543bc4e.jar",
+      "size": 17178917,
+      "hashes": {
+        "sha512": "9c732e18b65489bc5a8b351d46aa6182e07dfc025c4b1e3521cd5d44af3eead8eb80d4952230c739f23456f515869f67c096bb208c97d0c618bd9dda7bb487f2",
+        "sha1": "b662ec206cb90899a727fea08b4503aed06f508c"
+      },
+      "license": {
+        "id": "LGPL-3.0-or-later",
+        "name": "GNU Lesser General Public License v3.0 or later",
+        "url": "https://github.com/GregTechCEu/GregTech-Modern/blob/543bc4e/LICENSE"
+      },
+      "source": "https://github.com/GregTechCEu/GregTech-Modern/tree/543bc4e",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "forestry-community-edition",
+      "project_id": "2oORTOi2",
+      "name": "Forestry: Community Edition",
+      "version": "3.0.0-alpha9",
+      "version_id": "RqiWPEU4",
+      "release_type": "release",
+      "side": "both",
+      "filename": "forestry-1.21.1-3.0.0-alpha9.jar",
+      "url": "https://cdn.modrinth.com/data/2oORTOi2/versions/RqiWPEU4/forestry-1.21.1-3.0.0-alpha9.jar",
+      "size": 8592533,
+      "hashes": {
+        "sha512": "0b80611dec0c77f15909d9caeabfbf75919739c55776308e56ebc37a9acec215470db616cb691d18c8eb123389d72555019b962003d476caef420b006b54a930",
+        "sha1": "1ef55ec2856deba501a94ad86476f2362a677973"
+      },
+      "license": {
+        "id": "LGPL-3.0-only",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/forestry-community-edition",
+      "required_dependencies": [
+        {
+          "version_id": null,
+          "project_id": "nU0bVIaL",
+          "file_name": null,
+          "dependency_type": "required"
+        }
+      ],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "patchouli",
+      "project_id": "nU0bVIaL",
+      "name": "Patchouli",
+      "version": "1.21.1-93-neoforge",
+      "version_id": "BIogJv2D",
+      "release_type": "release",
+      "side": "both",
+      "filename": "Patchouli-1.21.1-93-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/BIogJv2D/Patchouli-1.21.1-93-NEOFORGE.jar",
+      "size": 646777,
+      "hashes": {
+        "sha512": "0b5c172db9a6eeecb5ca44b359a83548c3a60be7ff313959acdfc1e5b8039736c18e57e947d435b52d06da31159d2d02ea36e5742668dbc826308a4c99e4039f",
+        "sha1": "5413bb9b8fc35ebe46b06b48bf9afafbd8471140"
+      },
+      "license": {
+        "id": "CC-BY-NC-SA-3.0",
+        "name": "",
+        "url": null
+      },
+      "source": "https://modrinth.com/mod/patchouli",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    },
+    {
+      "slug": "industrial-craft-2-nostalgia",
+      "project_id": "curseforge-1725644",
+      "name": "Industrial Craft 2: Nostalgia",
+      "version": "21.1.0-local.37",
+      "version_id": "curseforge-9365653",
+      "release_type": "release",
+      "side": "both",
+      "filename": "industrial-craft-2-nostalgia-21.1.0-local.37.jar",
+      "url": "https://mediafilez.forgecdn.net/files/9365/653/industrial-craft-2-nostalgia-21.1.0-local.37.jar",
+      "size": 8345178,
+      "hashes": {
+        "sha512": "3094119c5c62fd73667aa3b3582fdbc3651ea1c255faa6842d85302d004beee60cb406988f2c2f88e1897ecbb576f755bf742caa204ac541fba8c738476ba78c",
+        "sha1": "99fa992c618475a056c1dc88d3bad98b86c82889"
+      },
+      "license": {
+        "id": "AGPL-3.0-only",
+        "name": "",
+        "url": null
+      },
+      "source": "https://www.curseforge.com/minecraft/mc-mods/industrial-craft-2-nostalgia",
+      "required_dependencies": [],
+      "incompatible_projects": []
+    }
+  ]
+}
