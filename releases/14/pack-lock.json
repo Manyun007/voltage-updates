@@ -1,0 +1,585 @@
+{
+  "schema": 1,
+  "name": "Voltage",
+  "version": "0.3.0-forge-test",
+  "minecraft": "1.20.1",
+  "forge": "47.4.28",
+  "java_major": 17,
+  "status": "isolated-test-only",
+  "loader_installer": {
+    "filename": "forge-1.20.1-47.4.28-installer.jar",
+    "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.28/forge-1.20.1-47.4.28-installer.jar",
+    "sha512": "8fd435b269ea75a97340127ab9f745410595ce70e52c39fe1aa70ad00419ae8c4580049d6538c3a24adf9bfc6bc2b42026f2a4cca33015f9f3c5bb8152c1fd35",
+    "size": 8859760
+  },
+  "windows_java": {
+    "vendor": "Eclipse Adoptium",
+    "version": "17.0.21+9",
+    "name": "OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.zip",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.21%2B9/OpenJDK17U-jre_x64_windows_hotspot_17.0.21_9.zip",
+    "sha256": "fe4656bd78fb09812dc38c49da777f79cc33e7ee435a254be82f9e7f40d9d117"
+  },
+  "mods": [
+    {
+      "name": "appliedenergistics2-forge-15.4.12.jar",
+      "filename": "appliedenergistics2-forge-15.4.12.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/XxWD5pD3/versions/QRpVsqDI/appliedenergistics2-forge-15.4.12.jar",
+      "size": 8501298,
+      "hashes": {
+        "sha512": "16c00668c82fc77d166f2917e38e940ef85bb80b05307c0da5d8ecd9f1de9dfb01c7d8fab32da84df1707c4eb3b5993634e794143243694ab66ae59289530457",
+        "sha1": "4e81984691e35c729880a11f72deb52dcc74d41f"
+      }
+    },
+    {
+      "name": "architectury-9.2.14-forge.jar",
+      "filename": "architectury-9.2.14-forge.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "size": 580602,
+      "hashes": {
+        "sha512": "cf67f2050cafa00f0bee42e6d7bef77fdb808ac4f71742f7b4d6d5c1e6ffb49561a5a252f332d2b78a9767bdb5faa284611790dba303fbdc736ae36d794f61c7",
+        "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4"
+      }
+    },
+    {
+      "name": "cofh_core-1.20.1-11.0.2.56.jar",
+      "filename": "cofh_core-1.20.1-11.0.2.56.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/OWSRM4vD/versions/kglS53Hd/cofh_core-1.20.1-11.0.2.56.jar",
+      "size": 1509649,
+      "hashes": {
+        "sha512": "5a62bc6dcaaf3cf77234f3e0559eb6d2ec7db05b39feeba56dbdd46f3378aec6d97bd2078e220fe33891384abc40e1a705affe9d77ae4e35cf60185e07c11a73",
+        "sha1": "6f7c0056fece31bf393df450d79482810ed444af"
+      }
+    },
+    {
+      "name": "embeddium-0.3.31+mc1.20.1.jar",
+      "filename": "embeddium-0.3.31+mc1.20.1.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "size": 1320675,
+      "hashes": {
+        "sha512": "ffbf2da4685260a4d5c14c621708bd20722563f084f042d3dfb0a7b87f048e39299648c854a93939129da0d23a15a91ec628560d601e76074b08e275f6e132e9",
+        "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f"
+      }
+    },
+    {
+      "name": "ferritecore-6.0.1-forge.jar",
+      "filename": "ferritecore-6.0.1-forge.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar",
+      "size": 123034,
+      "hashes": {
+        "sha512": "a1960a7c03dc32d4ccaccaf28afdd9b078758bbd62d15a91d4039a83fa9397a098e89b69591f6bd5190254d9ee97e502504154b9aec764adb8c65f000b75ba2c",
+        "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba"
+      }
+    },
+    {
+      "name": "FluxNetworks-1.20.1-7.2.1.15.jar",
+      "filename": "FluxNetworks-1.20.1-7.2.1.15.jar",
+      "side": "both",
+      "url": "https://mediafilez.forgecdn.net/files/5234/697/FluxNetworks-1.20.1-7.2.1.15.jar",
+      "size": 515573,
+      "hashes": {
+        "sha512": "d8bba4f929cc7a167a97541c42c5085e0a239a5fe8386611cfd7775ad9b6bac4c27e775d00858068279b466f54e7b3c37271373931976f9bbdb28bf6382111be",
+        "sha1": "65cea2d3da2a6d6fd274ef1dad37a516466be22c"
+      }
+    },
+    {
+      "name": "forestry-1.20.1-2.11.2.jar",
+      "filename": "forestry-1.20.1-2.11.2.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/2oORTOi2/versions/dvKfwvis/forestry-1.20.1-2.11.2.jar",
+      "size": 9438277,
+      "hashes": {
+        "sha512": "681aa8b0e76d007e8dd301c9669dcbea4264a8ad8a0b96e1ead9f6fafbf1f11259c6779f31c62f84c918afa38c1a320bf98cc60ccd97eb5b3ae029625eac5eae",
+        "sha1": "d392f0d2a600ad7dcf3f6d4efc653f315fac9f20"
+      }
+    },
+    {
+      "name": "ftb-library-forge-2001.2.12.jar",
+      "filename": "ftb-library-forge-2001.2.12.jar",
+      "side": "both",
+      "url": "https://mediafilez.forgecdn.net/files/7296/748/ftb-library-forge-2001.2.12.jar",
+      "size": 780523,
+      "hashes": {
+        "sha512": "6c2c88ce9e456197895b32a8995adf13a1923c5a35c967593308af1322bb47136fc92305f350544febcc05d0227d2a3f282d9e9d4c8ec5aacdc36176af78809b",
+        "sha1": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7"
+      }
+    },
+    {
+      "name": "ftb-quests-forge-2001.4.22.jar",
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "side": "both",
+      "url": "https://mediafilez.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+      "size": 1255469,
+      "hashes": {
+        "sha512": "7ffec667d4bb73e33e1815655361c93a7564d9040af937b26035bfa3cc26f6125962f173c623eb71cf949b0b0a49181a0459648007b3054e97150bd72fcc0bf8",
+        "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
+      }
+    },
+    {
+      "name": "ftb-teams-forge-2001.3.1.jar",
+      "filename": "ftb-teams-forge-2001.3.1.jar",
+      "side": "both",
+      "url": "https://mediafilez.forgecdn.net/files/6130/786/ftb-teams-forge-2001.3.1.jar",
+      "size": 248592,
+      "hashes": {
+        "sha512": "2cb200d5197e5baafa9e13e5c594a717c4f90aa17134e33207139f2280be5d2703e56139d24c96df643633c527c69d5bc5c9162ee929291ddd070b5e06a60003",
+        "sha1": "c2af94e0b86631cb75daa8de2377ff72527651ca"
+      }
+    },
+    {
+      "name": "ftb-xmod-compat-forge-2.1.3.jar",
+      "filename": "ftb-xmod-compat-forge-2.1.3.jar",
+      "side": "both",
+      "url": "https://mediafilez.forgecdn.net/files/6402/486/ftb-xmod-compat-forge-2.1.3.jar",
+      "size": 129725,
+      "hashes": {
+        "sha512": "4eb5aba1aff66721d19e54ceb40863684d0caab0735a9dcc04df86804ffcc19454f88ff89eb000db166aae2c1ef53ddbdadf61a62814db227638a8e86d37f2b9",
+        "sha1": "0584f628d2bc6a612d79dee368324357ebae1423"
+      }
+    },
+    {
+      "name": "gtceu-1.20.1-7.5.3.jar",
+      "filename": "gtceu-1.20.1-7.5.3.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/7tG215v7/versions/yLwvjuvy/gtceu-1.20.1-7.5.3.jar",
+      "size": 18209988,
+      "hashes": {
+        "sha512": "0b4643f3cd1b68d2afb043a461be646b5c6c1cc04f4a3fddde3baae7e4ce2b81265453cc4794736141d65287a2b109995dd202c3d6de618f229d1f8d32e34ce8",
+        "sha1": "2e9de016b74826d43f0d4e619a755e8ec0253784"
+      }
+    },
+    {
+      "name": "guideme-20.1.15.jar",
+      "filename": "guideme-20.1.15.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/Ck4E7v7R/versions/i7Tp1AHw/guideme-20.1.15.jar",
+      "size": 9414827,
+      "hashes": {
+        "sha512": "c08f2ab76b4442a5fcdd19c7ddc6e2a4c74469fd96844d2f868f2fb18517aced97bf40032c3036f7ca4b094de1ded9e3dab57924a49f3a3d499b61a0ecc2a9cc",
+        "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7"
+      }
+    },
+    {
+      "name": "industrial-foregoing-1.20.1-3.5.22.jar",
+      "filename": "industrial-foregoing-1.20.1-3.5.22.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/lWxpUd04/versions/5XXYqEMK/industrial-foregoing-1.20.1-3.5.22.jar",
+      "size": 4621983,
+      "hashes": {
+        "sha512": "e6942565c776f55e93f5d466886a66ef5744e3ddc4c0810c7daf396c6143f21966679e06c947a9536af08886f4d44d00a8b36b1e58742241f732821595495447",
+        "sha1": "2df8bbdbfa832ae1069e5173e58d3f2e0877d854"
+      }
+    },
+    {
+      "name": "jei-1.20.1-forge-15.56.0.205.jar",
+      "filename": "jei-1.20.1-forge-15.56.0.205.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
+      "size": 1778129,
+      "hashes": {
+        "sha512": "1306fe15c81d54aa9ff8f3d9f04812c0d61ffaaae433c29621f926db8f8e2c898669ccdd99e025849859d38b7a2eac170c466390b467f4dfa77542b5dbdd1678",
+        "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650"
+      }
+    },
+    {
+      "name": "kubejs-forge-2001.6.5-build.26.jar",
+      "filename": "kubejs-forge-2001.6.5-build.26.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar",
+      "size": 1658792,
+      "hashes": {
+        "sha512": "71ef9e5eb5f3bead86b635b42ad305d075c6487e631217b281d938193dcdc5fe0ff6bae8c86dd4e069726223a66e8690c0610f736c5a62910f60fd80edd575c1",
+        "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae"
+      }
+    },
+    {
+      "name": "lightmanscurrency-1.20.1-2.3.0.6.jar",
+      "filename": "lightmanscurrency-1.20.1-2.3.0.6.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/wvMc8AJt/versions/CmqiNDe3/lightmanscurrency-1.20.1-2.3.0.6.jar",
+      "size": 10445573,
+      "hashes": {
+        "sha512": "3c32ccea9b7533ae72b4758c8d4655e72ae6282c39dd53d297a394da6b27861d7560ac2ffdc297ed14dcca11e902539601a7e34af44ddce3a2ebfbf4bf6e39df",
+        "sha1": "203a6c9fedc2606095ac80cd561c513c952a3a10"
+      }
+    },
+    {
+      "name": "Mekanism-1.20.1-10.4.16.80.jar",
+      "filename": "Mekanism-1.20.1-10.4.16.80.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/Ce6I4WUE/versions/uxe1WQp4/Mekanism-1.20.1-10.4.16.80.jar",
+      "size": 12558456,
+      "hashes": {
+        "sha512": "a838bb3fa5550ba3589a81005fde2ca04b5d33417ae65a8060bbc46ba948dec2d16ab0871a55e73e0ca39651b33814eb508b5b85d337e6ed8874b79383f3e6f0",
+        "sha1": "b7f12ae710888b01746507a0aa8cb375f5897158"
+      }
+    },
+    {
+      "name": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "filename": "MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/OFVYKsAk/versions/Th4Czz4N/MekanismGenerators-1.20.1-10.4.16.80.jar",
+      "size": 1054586,
+      "hashes": {
+        "sha512": "f377ddd719cc5df6b09c81b16467da5ca6645237270c6f81556304585ebaee79030613783418a7b100ed6695857d17ce2d83ecfd123abf309e78ea3c0c2d1d12",
+        "sha1": "53fa707fd204ca1dd099a08995c2197145ff9a36"
+      }
+    },
+    {
+      "name": "modernfix-forge-5.27.92+mc1.20.1.jar",
+      "filename": "modernfix-forge-5.27.92+mc1.20.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/owm7aSw3/modernfix-forge-5.27.92%2Bmc1.20.1.jar",
+      "size": 1012803,
+      "hashes": {
+        "sha512": "ccacd653fee1e96f8ccf11eb84b07e44f9cf26b145bcb365f8f9be308e96febaf4dfc27e94b8cfe7c43bd90508c3532025b431d628f09e1be6e1979a3df32ffa",
+        "sha1": "431849bdf006a3994d47684ba2a66c4852e53950"
+      }
+    },
+    {
+      "name": "open-parties-and-claims-forge-1.20.1-0.33.0.jar",
+      "filename": "open-parties-and-claims-forge-1.20.1-0.33.0.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/Ec8wDd9H/open-parties-and-claims-forge-1.20.1-0.33.0.jar",
+      "size": 1906788,
+      "hashes": {
+        "sha512": "696ea9af89f71843dc6c205755ea49542ba5b55944ce9c43e279b819b92e06b8175b914ec4fc3c699240e6c9b833d008d3383e32274de15c2dda61ffb681dfce",
+        "sha1": "181438fbafb28bbde07c2879da6d688f943c0a9f"
+      }
+    },
+    {
+      "name": "Patchouli-1.20.1-85-FORGE.jar",
+      "filename": "Patchouli-1.20.1-85-FORGE.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/nU0bVIaL/versions/94dtOLgZ/Patchouli-1.20.1-85-FORGE.jar",
+      "size": 642732,
+      "hashes": {
+        "sha512": "15aedda4efcc553d5e3c83aa867b62554bc2fab298b43f55ed324e10507a3605f0ec2c59c01476e6d80b2a49275ef080142e43a6e663f9463b62f520960fc203",
+        "sha1": "d4614507d6e4c7cb464bba5eca891978272062ef"
+      }
+    },
+    {
+      "name": "rhino-forge-2001.2.3-build.10.jar",
+      "filename": "rhino-forge-2001.2.3-build.10.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar",
+      "size": 1798244,
+      "hashes": {
+        "sha512": "4eb6a635f3eff3baa158539bd55344421cf69b15e28f7da8bf55f370a11c071f3525063a6f81b67fbfca550ad8aaab7e6208df87f65ca6ed2851edd46f032b58",
+        "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1"
+      }
+    },
+    {
+      "name": "theoneprobe-1.20.1-10.0.5.jar",
+      "filename": "theoneprobe-1.20.1-10.0.5.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/Eyw0UxEx/versions/ddzHGfGs/theoneprobe-1.20.1-10.0.5.jar",
+      "size": 332763,
+      "hashes": {
+        "sha512": "996f245ef5c78cf0917062ce031930e28b4f565731b3bdd6befb4383db25d9f43e9e3032cd20e255ba2ef6de89330af496c044f7b38202257e555165c93fdaa9",
+        "sha1": "7631a0e583dfe684307a5d960cb9f2091fde9643"
+      }
+    },
+    {
+      "name": "thermal_expansion-1.20.1-11.0.1.29.jar",
+      "filename": "thermal_expansion-1.20.1-11.0.1.29.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/hmD6rrUJ/versions/Ux2Z0ow1/thermal_expansion-1.20.1-11.0.1.29.jar",
+      "size": 574141,
+      "hashes": {
+        "sha512": "cce9e05126064aa60d8c10955c8bcfef92b4080d042dfb663054565fefc9de8268c28b4cb025ed8e3bc9c3da1a9f1266e640c9ea9b799868b6ab4b758de6f3d0",
+        "sha1": "c79fe5b922653d109cdcee45f4bca24c86daf6c0"
+      }
+    },
+    {
+      "name": "thermal_foundation-1.20.1-11.0.6.70.jar",
+      "filename": "thermal_foundation-1.20.1-11.0.6.70.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/Xvg6q5Wp/versions/44ilyZbi/thermal_foundation-1.20.1-11.0.6.70.jar",
+      "size": 4549423,
+      "hashes": {
+        "sha512": "721908e776fa037c6b4e7a229f453b7e50efb62a935bfa67d4ee3ac68fbdf860e615b5cf54b0d2221504dd7c736e3d70659c3ea4a0abaa7e688ce5acdb98f87f",
+        "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f"
+      }
+    },
+    {
+      "name": "titanium-1.20.1-3.8.37.jar",
+      "filename": "titanium-1.20.1-3.8.37.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/1Ro7m06l/versions/Hiz07O4L/titanium-1.20.1-3.8.37.jar",
+      "size": 622121,
+      "hashes": {
+        "sha512": "57e575c0ec506f3715bee91d134004813a3a18349b1628ff9644079d4917ff40d39a3f92e19ccf5e6ee1b1f92a6368536375ba773d86f0e562d409308c53401f",
+        "sha1": "eaf9d82e05d42c507b60e68e6d4622b5afeef392"
+      }
+    },
+    {
+      "name": "xaerominimap-forge-1.20.1-26.6.0.jar",
+      "filename": "xaerominimap-forge-1.20.1-26.6.0.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/dB6E0CY9/xaerominimap-forge-1.20.1-26.6.0.jar",
+      "size": 2196194,
+      "hashes": {
+        "sha512": "9c566a2b9537c37b438a38a060cc251187e6643e96522466c50c90c7fa747a4e4edc3a5fff0f31fb042e1eeefd047df2a57d1bbe6a3d741837cef8cdb6426a25",
+        "sha1": "ee73886f2f5f27bf28cffa7cc8f2b9b4540df2aa"
+      }
+    },
+    {
+      "name": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "filename": "xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/KtEupJvB/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "size": 1429424,
+      "hashes": {
+        "sha512": "a8c775ad1645cd3dc922072955fff65f7874bd6a1c99e6a61d370e7a9a5880e450ba61dafa6c719ad8f719fcff3b17ec6124b7f47288009547b4b136d81e5657",
+        "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd"
+      }
+    },
+    {
+      "name": "BuildCraft-Community-Edition-8.0.25+1.20.1+forge.jar",
+      "filename": "BuildCraft-Community-Edition-8.0.25+1.20.1+forge.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/z3Aj5eOl/versions/XkgFf9tY/BuildCraft-Community-Edition-8.0.25%2B1.20.1%2Bforge.jar",
+      "size": 9413676,
+      "hashes": {
+        "sha512": "2d306c0e5fa88b22708389be91b14c740522955ee5d79ba305a716e76bcfabe31f992da8b965650a72953b71ac58926a3cfc7a088f672c32f5a0ad3a2e91e265",
+        "sha1": "b744d4f5805aff97c34dadcc77594ec9662c147f"
+      }
+    },
+    {
+      "name": "railcraft-reborn-1.20.1-1.1.11.jar",
+      "filename": "railcraft-reborn-1.20.1-1.1.11.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/rO6kKst6/versions/wNOUeJHM/railcraft-reborn-1.20.1-1.1.11.jar",
+      "size": 5255381,
+      "hashes": {
+        "sha1": "2006debe4a5e5096396441e8f5f60198c6fcbbd3",
+        "sha512": "12ba8349f3d71d430a2c6cb84828c843a1ab3f2ee053b5900bd4953dd29a0fc1150cd321583e9b2b7c4f24462b5a53c8a4ca5eb53d89278df8f73ee331beb27f"
+      }
+    },
+    {
+      "name": "AEAdditions-1.20.1-5.1.1.jar",
+      "filename": "AEAdditions-1.20.1-5.1.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/BaiPFaoT/versions/BlkC64Gz/AEAdditions-1.20.1-5.1.1.jar",
+      "size": 772814,
+      "hashes": {
+        "sha512": "4968e56bd2077eff2f2229dd5a4e046ad46dc8043fa96c68b60da235ccef45909e16fcc61d7d9fc8c4067bef007eea4352bbd266e77cc65d3fc8d27115658fdd",
+        "sha1": "6d0b06ee8df4b0ed927a3ddcc46e398eea2fa23d"
+      }
+    },
+    {
+      "name": "ironchest-1.20.1-14.4.4.jar",
+      "filename": "ironchest-1.20.1-14.4.4.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/P3iIrPH3/versions/YjbOtYwN/ironchest-1.20.1-14.4.4.jar",
+      "size": 311290,
+      "hashes": {
+        "sha1": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb",
+        "sha512": "5d41daa11bbc5c98c98faf6641993a47bce92c56204cec745686396e4f912b67abbc29f9fefcc5fd89422c37c3b34c191bfcc6479b28d7a07886cd279c0d6d99"
+      }
+    },
+    {
+      "name": "ae2wtlib-15.3.3-forge.jar",
+      "filename": "ae2wtlib-15.3.3-forge.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/pNabrMMw/versions/z8QXeyI0/ae2wtlib-15.3.3-forge.jar",
+      "size": 229518,
+      "hashes": {
+        "sha1": "1a546af04844677542b6914191783c7de15364fc",
+        "sha512": "f036f278e6d1360147b04f2090829154e75e456f3b2c0af7571b537bf0fd13e97f29211f7a044f9437a171a1c525195737860895118eab70b2b4af54485367d4"
+      }
+    },
+    {
+      "name": "IndustrialUpgrade-1.20.1-3.4.0.11.jar",
+      "filename": "IndustrialUpgrade-1.20.1-3.4.0.11.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/uWvWTs7C/versions/xJJRpudY/IndustrialUpgrade-1.20.1-3.4.0.11.jar",
+      "size": 37295747,
+      "hashes": {
+        "sha1": "e48404de025f99c91804fa4c744dd9736274ec49",
+        "sha512": "8dc122618df20fc242bcc8afdb77d6a841b44ef42422919319ded498493f31cc3181643dc21efd394b19d0ebce09bf04e56bd6629766444d2bd5e3063ee12662"
+      }
+    },
+    {
+      "name": "mobees-1.20.1-0.1.5.jar",
+      "filename": "mobees-1.20.1-0.1.5.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/srUEV3lp/versions/ZGZ7KjOt/mobees-1.20.1-0.1.5.jar",
+      "size": 556954,
+      "hashes": {
+        "sha1": "934ada91b88a9de8ab76adffcf8799e1c5a37811",
+        "sha512": "125e565f89efec32b70afe266ceca965b56a9bf38674059cf43d5a0738da39e70ca3ec06e904887fadb5f50d2c5fd1507cd0a40b00f022eea29d4ae0fa674c19"
+      }
+    },
+    {
+      "name": "rechiseled-1.2.6-forge-mc1.20.1.jar",
+      "filename": "rechiseled-1.2.6-forge-mc1.20.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/B0g2vT6l/versions/H9XQzWIp/rechiseled-1.2.6-forge-mc1.20.1.jar",
+      "size": 11895585,
+      "hashes": {
+        "sha512": "d62f9eaabadc06d1354d5ba363b68220bd13ac528b30dc8c78eaf788233c0221f8f5c4006e00bbb0a0f9748caae7ba6f4c7be21b148b656635b4049fe553cd0d",
+        "sha1": "21d490e6aa8ba2ac7fad315d937b0b8f21b8c639"
+      }
+    },
+    {
+      "name": "kotlinforforge-4.12.0-all.jar",
+      "filename": "kotlinforforge-4.12.0-all.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "size": 7442998,
+      "hashes": {
+        "sha512": "767f40030ed4b370a3838fa65ae1b79974f31979342fff7cc834a0d5f39eb28612642519352ff2a1dd5226ce1f745f8b3156ee3625ffde01219137d064c1ee40",
+        "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22"
+      }
+    },
+    {
+      "name": "cloth-config-11.1.136-forge.jar",
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "size": 1181413,
+      "hashes": {
+        "sha512": "137c4af99c53d77317cbfb1cc8c49fc2761708b49d1992f51fd846960df41dde3a83519c987e081508d4ed90c603566f3d5a6cb620ad9d85b8f4de59aa9115ef",
+        "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f"
+      }
+    },
+    {
+      "name": "curios-forge-5.14.1+1.20.1.jar",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "size": 398066,
+      "hashes": {
+        "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+        "sha512": "1373f95fd111c977db2f6adcef8e4eb486a2d926a3e17374692dee4ac3d65857de6446c16922b531aa5ace2c23c666a7fcc28c720b2917c1e04808d15648ba87"
+      }
+    },
+    {
+      "name": "simplyquarries-1.7.jar",
+      "filename": "simplyquarries-1.7.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/nbGJGzDE/versions/un6DiJ2q/simplyquarries-1.7.jar",
+      "size": 136253,
+      "hashes": {
+        "sha512": "f40d716cb055eebdc63205e556b09f5e1813c408c720f4b91ef31b8321bd10fdc499bb58fa775912c15fd6f12ea70e48537b4d17fb5c288a8b163a5e344df001",
+        "sha1": "c44121c323e2fd26dff81486ea425354ea97223f"
+      }
+    },
+    {
+      "name": "powerutils-1.8.jar",
+      "filename": "powerutils-1.8.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/EqI9kqZg/versions/FTuoegSv/powerutils-1.8.jar",
+      "size": 71203,
+      "hashes": {
+        "sha512": "4f1c1cf112e8982462a096f063afa29894dc66903f3d9cd4dfc801fe34583808b8a1ccdf17b51b98c714409a618e3ba1e79e06830332f6435c5492a40cbaa952",
+        "sha1": "c8bf8ed05d2603562477a4b9873d4fa98026d31a"
+      }
+    },
+    {
+      "name": "quantumgenerators-1.7.jar",
+      "filename": "quantumgenerators-1.7.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/MLHIc0w1/versions/kWsRSFGx/quantumgenerators-1.7.jar",
+      "size": 159554,
+      "hashes": {
+        "sha512": "05bf147e3c68755897e8a986d222cee3a1a7b4f83f3e2fba612a6ebe7e8132e0323a1fc4bde223b76d5029c95c1de46e9a3a1dbe0ed28d7d9266c46f7c3bb8d9",
+        "sha1": "c7119e4839ceba2f99a09f1a8107340a43e1b1c4"
+      }
+    },
+    {
+      "name": "fusion-1.3.16-forge-mc1.20.1.jar",
+      "filename": "fusion-1.3.16-forge-mc1.20.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/w0vXLzFW/fusion-1.3.16-forge-mc1.20.1.jar",
+      "size": 972917,
+      "hashes": {
+        "sha1": "bdaea06e0900a21d01b47389f256c99875f5824e",
+        "sha512": "f55395f2dde88e9bc222d0130250ec510dc07e8a670fa3aab003666d104b296c762dd5a462326615fc7832e5f58ea35297f4760f268f16663b9c6835dcff8bdc"
+      }
+    },
+    {
+      "name": "supermartijn642corelib-1.1.26a-forge-mc1.20.1.jar",
+      "filename": "supermartijn642corelib-1.1.26a-forge-mc1.20.1.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/gpZw1vK8/supermartijn642corelib-1.1.26a-forge-mc1.20.1.jar",
+      "size": 599911,
+      "hashes": {
+        "sha512": "2ab638e74ecc4d9f78f636ebab75c69e91f870c8c29ff42a48a8cbaf9f8eccca5190b4de8d651808925337f9b0b1df1326c0151e2e3dc41d9857aa8c2dbbba8f",
+        "sha1": "60137bb03fe7dec06dad5ad88d729e993c619df4"
+      }
+    },
+    {
+      "name": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "filename": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/ZKor79dR/supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "size": 206584,
+      "hashes": {
+        "sha1": "f80f9eed728966adcfbcc848633e789645057281",
+        "sha512": "476595aacc7c66a0cf7bcd56143975122ea54ae4c5b61a232d3b0b9b1e3c013575efcc05de31a5d2c4e129542bfd8ae255a25d1486a4e08961cc4a303940fd19"
+      }
+    },
+    {
+      "name": "thermal_dynamics-1.20.1-11.0.1.23.jar",
+      "filename": "thermal_dynamics-1.20.1-11.0.1.23.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/t8bmWGI2/versions/KaJ5ADIU/thermal_dynamics-1.20.1-11.0.1.23.jar",
+      "size": 622948,
+      "hashes": {
+        "sha1": "7a9b3691dfca81e52d3e34738c6bc0a98b58bf93",
+        "sha512": "c670bd8ca004342561b40eefa9f7b35232c6fa725c5d4b23eafc3ba5dd9980f71debad1bb02f1d551a6d42011ab693d62796402d0630542a8a68455105d3224c"
+      }
+    },
+    {
+      "name": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "filename": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "size": 511601,
+      "hashes": {
+        "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+        "sha512": "b8527199be5a8b4bc758a4f320586b5886e6ff657718f52d464386b1e3c695d7bfe644e2ef9487a869c93c0866818995ecd47b9e1a19054929242682e37f58b7"
+      }
+    },
+    {
+      "name": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "filename": "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "side": "client",
+      "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "size": 443978,
+      "hashes": {
+        "sha512": "20b11f1582df3df3d351e0cffcfc8b97453e2d73164fbad46d3f4eb960cab57d8f708d84b818782ef019d5cd9494ce001161f753623680516a191d6f510ebb79",
+        "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c"
+      }
+    },
+    {
+      "name": "Quark-4.0-462.jar",
+      "filename": "Quark-4.0-462.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar",
+      "size": 14935230,
+      "hashes": {
+        "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+        "sha512": "585b182ccd51066e841141c9bc74fe8b820df86119828b7542b56771c3fcaf8bcc92f9d67f4e87736e82a45bb9166f71c015b95e230f964215290707b6475eed"
+      }
+    },
+    {
+      "name": "Zeta-1.0-31.jar",
+      "filename": "Zeta-1.0-31.jar",
+      "side": "both",
+      "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar",
+      "size": 1006518,
+      "hashes": {
+        "sha512": "0b14233864d8fdad148c33971731d8e9638d2cdceab8977162448598d78b74beb838913d445e065f6e0bf0d5cf36b8b843fc576ce47ab9899b3f2d7c713eefef",
+        "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f"
+      }
+    }
+  ]
+}
