@@ -1,0 +1,17 @@
+{
+  "ae2.emi_integration.category_charger": "Зарядник",
+  "ae2.emi_integration.category_condenser": "Конденсатор материи",
+  "ae2.emi_integration.category_entropy_manipulator": "Манипулятор энтропии",
+  "ae2.emi_integration.category_inscriber": "Вырезатель",
+  "block.ae2.crystal_resonance_generator": "Генератор кристаллического резонанса",
+  "dimension.ae2.spatial_storage": "Пространственное хранилище",
+  "gui.ae2.EnergyGenerationCapacity": "Мощность генерации: %s",
+  "gui.ae2.NoChannel": "Отсутствует канал",
+  "gui.ae2.SearchTooltipToolTips": "Используйте # для поиска в подсказках (#looting)",
+  "gui.ae2.TransformTypeExplode": "Взрыв",
+  "gui.ae2.TransformTypeThrowInFluid": "Бросить в %s",
+  "gui.tooltips.ae2.InscriberBufferHigh": "Стак до 64",
+  "gui.tooltips.ae2.InscriberBufferLow": "Стак до 4",
+  "gui.tooltips.ae2.InscriberBufferSize": "Размер стака во входном слоте",
+  "waila.ae2.Suppressed": "Подавлено"
+}

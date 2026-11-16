@@ -1,0 +1,6 @@
+RTF Extension translations by Kamas50 and project contributors.
+Modified for VOLTAGE: selected missing language keys and checked formatting placeholders.
+License: GNU AGPL version 3 only; see LICENSE_RTF.txt.
+Original project and source: https://github.com/Kamas50/RTF_Extension
+Original release: https://modrinth.com/resourcepack/rtf-extension/version/Jc3ynK1l
+These modified JSON source files and the launcher source are distributed in the signed VOLTAGE release at https://github.com/Manyun007/voltage-updates/tree/main/releases/19

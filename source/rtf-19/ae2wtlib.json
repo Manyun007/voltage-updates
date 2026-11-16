@@ -1,0 +1,11 @@
+{
+  "gui.ae2wtlib.magnetcard.desc.me_no_magnet": "Магнит выключен, подбор в МЭ",
+  "gui.ae2wtlib.wireless_terminal_settings_title": "Настройки беспроводного терминала",
+  "gui.ae2wtlib.magnet_settings_title": "Настройки магнита",
+  "gui.ae2wtlib.pick_block.text": "Включить выбор блока",
+  "gui.ae2wtlib.craft_if_missing.text": "Создать при отсутствии",
+  "gui.ae2wtlib.restock.text": "Пополнить",
+  "gui.ae2wtlib.magnet.text": "Магнит",
+  "gui.ae2wtlib.pickup_to_me.text": "Подбор в МЭ-систему",
+  "key.ae2.ae2wtlib_stow": "Убрать стак из руки в МЭ-систему"
+}
