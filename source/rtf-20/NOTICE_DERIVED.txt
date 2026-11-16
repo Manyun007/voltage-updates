@@ -1,0 +1,4 @@
+Derived Russian stair and slab names for Rechiseled from selected RTF Extension translations.
+Original RTF Extension contributors: https://github.com/Kamas50/RTF_Extension
+This modified selection is offered under GNU AGPL version 3; see LICENSE_RTF.txt.
+Source and generator: https://github.com/Manyun007/voltage-updates/tree/main/source/rtf-20
